@@ -32,4 +32,4 @@ with open(csv_file, "r", encoding="utf-8") as f:
 
 conn.commit()
 conn.close()
-print(f"Converted {csv_file} → {db_file} with table '{table_name}'")
+print(f"Converted {csv_file} - {db_file} with table '{table_name}'")
